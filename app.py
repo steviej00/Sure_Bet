@@ -23,7 +23,7 @@ df["FPTS"] = round(df["FPTS"],2)
 df["FPTS/G"] = round(df["FPTS/G"],2)
 
 # Load NFL Logo image in APP
-st.image(nfl_logo, use_column_width="always")
+#st.image(nfl_logo, use_column_width="always")
 #tryhing to add a gif image
 #st.markdown("![Alt Text](https://giphy.com/gifs/nfl-49ers-san-francisco-l1AvAJ3Ixl96eBR60)")
 
@@ -76,7 +76,7 @@ st.markdown("LETS GET STARTED")
 st.header("Place 'Sure' Bet!")
 
 # Load players; image
-st.image(players, use_column_width="always")
+#st.image(players, use_column_width="always")
 
 # Position radio button
 position = st.radio("Please select the player's position:", options=df["Position"].unique())
