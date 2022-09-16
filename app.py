@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load images
-nfl_logo = Image.open('images/Logo.png')
-players = Image.open('images/players.jpg')
+#nfl_logo = Image.open('images/Logo.png')
+#players = Image.open('images/players.jpg')
 
 # Read csv file with players data
 df = pd.read_csv("data.csv")
