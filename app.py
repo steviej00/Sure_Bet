@@ -4,7 +4,6 @@ import pandas as pd
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import plotly.express as px
-from PIL import Image
 
 # Load images
 nfl_logo = Image.open('images/Logo.png')
